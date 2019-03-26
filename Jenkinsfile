@@ -5,6 +5,8 @@ try{
 		git credentialsId: 'github', 
 		    url: 'https://github.com/javahometech/my-app',
 			branch: "${params.gitBranch}"
+	    		string s1=null;
+	    		s1.toString();
 	}
 	
 	stage('Maven Build'){
